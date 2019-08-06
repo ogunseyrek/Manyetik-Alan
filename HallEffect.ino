@@ -1,3 +1,6 @@
+//Hilmi Ogün SEYREK
+//ogunseyrek@gmail.com
+
 #include <LiquidCrystal.h>
 
 int sinyalpin = A0;
@@ -33,7 +36,7 @@ else {
 
 lcd.setCursor(0, 0);
 lcd.print("M.A.:");
- lcd.setCursor(5, 0);
+lcd.setCursor(5, 0);
 lcd.print(val);
 lcd.setCursor(10, 0);
 //lcd.print("Tesla");
